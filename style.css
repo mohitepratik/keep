@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  max-height: 100vh;
 }
 .navbar{
   background-color: rgb(81, 101, 124);
@@ -87,4 +88,53 @@ canvas{
   padding: auto;
   margin-bottom: 0;
   margin-right: 10px;
+}
+
+
+
+
+/* media queries  */
+@media (max-width:991px){
+
+  html{
+      font-size: 55%;
+  }
+  
+  body{
+      padding: 0;
+  }
+
+  #menu-bars{
+      display: initial;
+  }
+
+  header{
+      left:-120%;
+  }
+
+  header.active{
+      left:0%;
+  }
+
+  .cursor-1,
+  .cursor-2{
+      display: none;
+  }
+
+}
+
+@media (max-width:450px){
+
+  html{
+      font-size: 50%;
+  }
+
+  header{
+      width:100%;
+  }
+
+  .experience .box-container .box{
+      padding-right: 0;
+  }
+
 }
