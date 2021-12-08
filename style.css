@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin:0;
+  padding:0;
 }
 .navbar{
   background-color: rgb(81, 101, 124);
@@ -138,8 +138,3 @@ canvas{
       padding-right: 0;
   }
 
-}
-btn{
-  align-items: center;
-  justify-content: center;
-}
